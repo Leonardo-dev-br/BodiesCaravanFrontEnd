@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --shark: #1B2021;
+    --lucky-point: #161E63;
+    --fuchsia-blue: #7A4AC2;
+    --sandy-brown: #F2B561;
+    --espresso: #5C1B19;
+    --cadet-blue: #A5A8C3;
+    --white: #FFFFFF;
+
+    --audiowide: 'Audiowide', sans-serif;
+    --space-mono: 'Space Mono', monospace;
+    --orbitron: 'Orbitron', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+}
