@@ -10,7 +10,7 @@ export default function Home() {
           <div>
             <h2 className="slogan">Inicie essa experiência  Ne(Ca)bulosa</h2>
           </div>
-          <div>
+          <div className="border-t border-gray-700">
             <h1 className="subtitle-caravan text-3xl">Caravan Bodies</h1>
             <p className="text-lg mt-4">
             Descubra os mistérios do espaço com nosso sistema incrível! Ele te mostra exatamente onde estão os asteroides e cometas que passam pertinho da Terra. Fique sempre informado e embarque nessa aventura cósmica!
