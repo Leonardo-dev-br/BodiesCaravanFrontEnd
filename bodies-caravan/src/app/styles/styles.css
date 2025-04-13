@@ -7,10 +7,36 @@
     --sandy-brown: #F2B561;
     --espresso: #5C1B19;
     --cadet-blue: #A5A8C3;
-    --white: #FFFFFF;
+    --alto: #d9d9d946;
 
     --audiowide: 'Audiowide', sans-serif;
     --space-mono: 'Space Mono', monospace;
     --orbitron: 'Orbitron', sans-serif;
     --roboto: 'Roboto', sans-serif;
+}
+
+.header{
+    background-color: var(--alto);
+    font-family: var(--roboto);
+}
+
+.title-caravan{
+    font-family: var(--audiowide);
+    font-size: 3em;
+}
+
+.subtitle-caravan{
+    font-family: var(--orbitron);
+    font-size: 2em;
+}
+
+.slogan{
+    font-family: var(--space-mono);
+    font-size: 1.5em;
+}
+
+.button{
+    background-color: var(--fuchsia-blue);
+    color: #FFF ;
+    font-family: var(--roboto);
 }

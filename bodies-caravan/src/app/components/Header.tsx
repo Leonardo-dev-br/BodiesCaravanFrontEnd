@@ -1,13 +1,13 @@
-import Link from "next/link";
+  import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-purple-900 text-white p-4">
+    <header className="header text-white p-4">
       <nav className="max-w-6xl mx-auto">
         <ul className="flex justify-between items-center">
           <li>
-            <Link href="/" className="text-lg font-bold hover:text-gray-300">
-              Home
+            <Link href="/" className="title-caravan hover:text-gray-900">
+              Caravan Bodies
             </Link>
           </li>
 
@@ -15,12 +15,17 @@ export default function Header() {
             <ul className="flex gap-6">
               <li>
                 <Link href="/search-history" className="hover:text-gray-300">
-                  Histórico de Pesquisa
+                  Criar Conta
                 </Link>
               </li>
               <li>
                 <Link href="/profile-user" className="hover:text-gray-300">
-                  Perfil
+                  Login
+                </Link>
+              </li>
+              <li>
+                <Link href="/search-history" className="hover:text-gray-300">
+                  Sobre Nós
                 </Link>
               </li>
             </ul>
